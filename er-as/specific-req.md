@@ -6,7 +6,7 @@
 
 **Test method**
 
-Check manually that if the [geometry](#geometry) of the spatial object is derived from another spatial object, the geometries of the two objects are consistent.
+Check manually that if the geometry of the spatial object is derived from another spatial object, the geometries of the two objects are consistent.
 
 
 **Reference(s)**: 
@@ -31,4 +31,3 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                   |  XPath expression                 |Multiplicity       |Voidable
 ------------------------------ | --------------------------------- | ------------------|----------
-geometry <a name="geometry"></a> | //schema-element(er-v:FossilFuelResource)/er-v:geometry | 1 | No
