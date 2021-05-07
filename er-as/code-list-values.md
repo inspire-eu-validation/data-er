@@ -57,5 +57,5 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-typeOfResource (RenewableAndWasteResource feature type) <a name="typeOfResource"></a> | //schema-element(er-v:RenewableAndWasteResource)/er-v:typeOfResource/@xlink:href | 1 | No
-typeOfResource (FossilFuelResource feature type) <a name="typeOfResource"></a> | //schema-element(er-v:FossilFuelResource)/er-v:resource/er-v:FossilFuelResourceType/er-v:typeOfResource/@xlink:href | 1 (1..\* for the parent) | No
+typeOfResource (RenewableAndWasteResource feature type) <a name="typeOfResource1"></a> | //schema-element(er-v:RenewableAndWasteResource)/er-v:typeOfResource/@xlink:href | 1 | No
+typeOfResource (FossilFuelResource feature type) <a name="typeOfResource2"></a> | //schema-element(er-v:FossilFuelResource)/er-v:resource/er-v:FossilFuelResourceType/er-v:typeOfResource/@xlink:href | 1 (1..\* for the parent) | No
