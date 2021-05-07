@@ -28,8 +28,8 @@ An indirect dependency is another conformance class whose requirements must be m
 
 The instantiable feature types in the application schema are:
 
-	* FossilFuelResource
-	* RenewableAndWasteResource
+* FossilFuelResource
+* RenewableAndWasteResource
 
 ## External document references
 
