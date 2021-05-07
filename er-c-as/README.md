@@ -28,7 +28,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 The instantiable feature type is:
 
-	* RenewableAndWastePotentialCoverage
+* RenewableAndWastePotentialCoverage
 
 
 ## External document references
