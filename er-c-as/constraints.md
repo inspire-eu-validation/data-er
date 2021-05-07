@@ -20,11 +20,6 @@ The following check is performed for every feature in the dataset.
 
 **Notes** 
 
-See also the [theme-specific requirement](./specific-req.md).
-
-Only the equivalent of the information classValue found in the Vector representation (i.e. the reference to a code list through the type LandCoverClassValue) is then supported by the raster representation of LC data (rangeSetIsKindOfLandCoverClassValue constraint). The rangeSet of the raster allows attaching a single classification code, resulting from a classification process, to each raster cell. These can be Corine codes, IGBP codes or other codes corresponding to a national, institutional or local nomenclature.
-These restrictions are linked to the formats used to encode rectified grid coverages (as Geotiff) which only support one value per pixel.
-
 Verify that the OCL constraints that are specified in the UML model of the application schema are met, i.e. validate features against the constraints. For unmet constraints report [constraintViolation](#constraintViolation).
 
 ## Messages
